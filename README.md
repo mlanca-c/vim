@@ -1,3 +1,3 @@
-![image_vim](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeUJ-inzcGtNctS5kKnEHM-r-n3MgQJ33EzN85Xm5Mwhe0pQaE)
 # vim
 Ubuntu-vim/Personal 
+![image_vim](https://miro.medium.com/max/1200/1*MRdYzXFb3Ra-gWutFwrzIg.jpeg)
