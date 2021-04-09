@@ -2,9 +2,9 @@
 " URL: https://github.com/mlanca-c
 " Authors: mlanca-c
 " Description: An example .vimrc. If you are a newbie, basing your first .vimrc 
-		" on this file is a good choice. If you're a more advanced user, 
-		" building your own .vimrc based on this file is still a good 
-		" idea.
+			 " on this file is a good choice. If you're a more advanced user, 
+			 " building your own .vimrc based on this file is still a good 
+			 " idea.
 
 " ==============================================================================
 " ==General Configuration Options===============================================
@@ -119,7 +119,7 @@ set sidescrolloff=5 	" The number of screen columns to keep to the left and
 " syntax enable 		" Enable syntax highlighting (if you want to know what
 						" this means, just type :syntax off/on).
 
-map <F5> :setlocal spell! spelllang=en_us<CR>		
+map <F5> :setlocal spell! spelllang=en_us<CR>	
 " Toggle spell check.
 " Once the cursor is on the word use [z=]
 " [zg] add to dictionary.

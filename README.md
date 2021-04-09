@@ -2,6 +2,7 @@
  Ubuntu-vim/Personal 
 
 # Contents
+
  <details>
 
  1. [Intro](https://github.com/mlanca-c/vim#intro)
@@ -41,6 +42,7 @@
  [Here](http://vimcolors.com/) is a useful website. Vim Colors can automatically generate previews of Vim colorschemes from GitHub repos.
 
 # References
+
  * [Mastering Vim Quickly: From WTF to OMG in no time](https://www.amazon.com/Mastering-Vim-Quickly-WTF-time/dp/1983325740) by Joviac Ilic.
  * [molokai](https://github.com/tomasr/molokai): color scheme.
 
