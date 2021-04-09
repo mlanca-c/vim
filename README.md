@@ -1,23 +1,4 @@
 # vim
-
-   ```vim
-   "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
-   "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
-   "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
-   if (empty($TMUX))
-     if (has("nvim"))
-       "For Neovim 0.1.3 and 0.1.4 < https://github.com/neovim/neovim/pull/2198 >
-       let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-     endif
-     "For Neovim > 0.1.5 and Vim > patch 7.4.1799 < https://github.com/vim/vim/commit/61be73bb0f965a895bfb064ea3e55476ac175162 >
-     "Based on Vim patch 7.4.1770 (`guicolors` option) < https://github.com/vim/vim/commit/8a633e3427b47286869aa4b96f2bfc1fe65b25cd >
-     " < https://github.com/neovim/neovim/wiki/Following-HEAD#20160511 >
-     if (has("termguicolors"))
-       set termguicolors
-     endif
-   endif
-   ```
-
 Ubuntu-vim/Personal 
 
 # Contents
@@ -47,7 +28,16 @@ Ubuntu-vim/Personal
 
  As a first step, we have to understand how to configure ```Vim```. The main configuration file is ```vimrc```. It exists in two versions—global and personal. Your personal```vimrc``` file is usually placed in your home directory. In Linux operating systems it’s usually a hidden file called ```.vimrc```. 
 
- Vim supports color schemes. To begin, choose some of the installed color schemes.
+## List of thing I wanted in my vimrc file.
+ * color schemes.
+ * spelling custumized.
+ * column 80 higlighted
+
+# Vim Color Scheme
+
+ Vim allows its users to change the colors it uses. So yes, Vim supports color schemes. You can create your own, or download some you like, and install them in Vim.
+
+ [Here](http://vimcolors.com/) is a useful website. Vim Colors can automatically generate previews of Vim colorschemes from GitHub repos.
 
 # References
 
