@@ -7,6 +7,7 @@
 
  1. [Intro](https://github.com/mlanca-c/vim#intro)
  2. [Personalizing Vim](https://github.com/mlanca-c/vim#Personalizing-Vim)
+    * [Vim Color Scheme](https://github.com/mlanca-c/vim#Vim-Color-Scheme)
  9. [References](https://github.com/mlanca-c/vim#references)
 
  </details>
@@ -28,12 +29,6 @@
 # Personalizing Vim
 
  As a first step, we have to understand how to configure ```Vim```. The main configuration file is ```vimrc```. It exists in two versions—global and personal. Your personal```vimrc``` file is usually placed in your home directory. In Linux operating systems it’s usually a hidden file called [.vimrc](https://github.com/mlanca-c/vim/blob/main/.vimrc). 
-
-## List of thing I wanted in my vimrc file.
-
- * color schemes.
- * spelling custumized.
- * column 80 higlighted
 
 ## Vim Color Scheme
 
