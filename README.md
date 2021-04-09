@@ -1,4 +1,16 @@
 # vim
+
+ ```
+ int	main(void)
+ {
+	if (this.works)
+		give.kiss;
+	else
+		return (blow);
+ }
+ ```
+
+
 Ubuntu-vim/Personal 
 
 # Contents
@@ -20,14 +32,15 @@ Ubuntu-vim/Personal
 
  > ```Operators```: Operator commands (or operators) can delete, change or insert text, copy or format it, etc.
 
-# Personalizing Vim
-
  If you’ve had any experience with some of the text editors for programmers, it’s most likely you’ll be disappointed with how ```Vim``` looks. But this is actually a good thing. While other editors try to force you use their features, ```Vim``` does the opposite.
 
  The “interface” is very minimal. This means that you have to spend some time and effort to make the ```Vim``` interface look pretty, as well as to improve your productivity. The benefit is this process of configuration will help you understand better how ```Vim``` works.
 
+# Personalizing Vim
 
- 
+ As a first step, we have to understand how to configure ```Vim```. The main configuration file is ```vimrc```. It exists in two versions—global and personal. Your personal```vimrc``` file is usually placed in your home directory. In Linux operating systems it’s usually a hidden file called ```.vimrc```. 
+
+ Vim supports color schemes. To begin, choose some of the installed color schemes.
 
 # References
 
