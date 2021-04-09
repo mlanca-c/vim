@@ -32,6 +32,15 @@ colorscheme molokai	" Set up a color scheme.
 
 set laststatus=2	" Always display the status bar.
 
+" Costumize status bar.
+set statusline=%F		" Filename and respective path.  
+set statusline+=%m		" Modified flag.
+set statusline+=%r		" Read only flag.
+set statusline+=%h		" Help file flag.
+set statusline+=%w		" .
+set statusline+=%=		" Start at the end of line.
+set statusline+=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)
+
 set ruler			" Shows the position of the cursor (right bottom of 
 					" status bar).
 
@@ -42,8 +51,8 @@ set cursorline		" Highlight the line currently under cursor.
 set number			" Set line number file.
 
 "set relativenumber	" Show line number on the current line and relative 
-" conseguir por		" numbers on all other lines.
-"so in 				" Works only if the option above (number) is enabled.
+					" numbers on all other lines.
+	 				" Works only if the option above (number) is enabled.
 
 set noerrorbells	" Disable beep on errors.
 set visualbell		" Flash the screen instead of beeping on errors.
@@ -54,6 +63,16 @@ set title			" Set the window's title, reflecting the file currently
 					" being edited.
 
 set cc=80			" Highlight column 80.
+
+
+" ==============================================================================
+" ==Swap and Backup file options - disable all of them==========================
+
+" set noswapfile
+
+" set nobackup
+
+" set nowb
 
 " ==============================================================================
 " ==Indentation Options=========================================================
@@ -75,9 +94,30 @@ set nowrap					" Don’t wrap lines.
 " ==============================================================================
 " ==Search Options==============================================================
 
-" set incsearch
+" set incsearch		" Find the next match as we type the search.
 
+" set hlsearch 		" Highlight searches by default.
 
+" set ignorecase	"Ignore case when searching . . .
+
+" set smartcase		" . . . unless you type a capital.
+
+" ==============================================================================
+" ==Text Rendering Options======================================================
+
+" set encoding=utf-8	" Use an encoding that supports Unicode.
+
+" set linebreak 		" Wrap lines at convenient points, avoid wrapping a line
+						" in the middle of a word.
+
+set scrolloff=3 		" The number of screen lines to keep above and below the
+						" cursor.
+
+set sidescrolloff=5 	" The number of screen columns to keep to the left and 
+						" right of the cursor.
+
+" syntax enable 		" Enable syntax highlighting (if you want to know what
+						" this means, just type :syntax off/on).
 
 map <F5> :setlocal spell! spelllang=en_us<CR>		
 " Toggle spell check.
@@ -85,22 +125,7 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 " [zg] add to dictionary.
 " [zw] ignore
 
+" ==============================================================================
 
-
-
-
-
-
-
-
-
-" syntax on
-" filetype plugin on
-" set number
 " set undodir=~/.vim/undodir
 " set undofile
-" set tabstop=4
-" set shiftwidth=4
-" set noexpandtab
-
-
