@@ -5,6 +5,7 @@ Ubuntu-vim/Personal
  <details>
 
  1. [Intro](https://github.com/mlanca-c/vim#intro)
+ 9. [References](https://github.com/mlanca-c/vim#references)
 
  </details>
 
@@ -23,3 +24,7 @@ try to force you use their features, ```Vim``` does the opposite.
  The “interface” is very minimal. This means that you have to spend some time and effort to
 make the ```Vim``` interface look pretty, as well as to improve your productivity. The benefit is this
 process of configuration will help you understand better how ```Vim``` works.
+
+# References
+
+ * [Mastering Vim Quickly: From WTF to OMG in no time](https://www.amazon.com/Mastering-Vim-Quickly-WTF-time/dp/1983325740) by Joviac Ilic.
