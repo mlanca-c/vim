@@ -6,7 +6,7 @@ Ubuntu-vim/Personal
 
  1. [Intro]()
 
- <\details>
+ </details>
 
 # Intro
 
