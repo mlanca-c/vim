@@ -16,9 +16,9 @@ Ubuntu-vim/Personal
 
  ```Vim``` is different from other text editors. Although it looks hard to learn, there are only two main ideas you need to really understand it. Those two are actually what makes Vim so different from other text editors. They are **modal editing** and **operators**.
 
- > ```Modal Editing```: the purpose of Vim is to enable you to edit text effectively. Because you spend more time editing than entering the text, Vim makes editing and navigation more powerful than any other text editor.
+ * ```Modal Editing```: the purpose of Vim is to enable you to edit text effectively. Because you spend more time editing than entering the text, Vim makes editing and navigation more powerful than any other text editor.
 
- > ```Operators```: Operator commands (or operators) can delete, change or insert text, copy or format it, etc.
+ * ```Operators```: Operator commands (or operators) can delete, change or insert text, copy or format it, etc.
 
  If you’ve had any experience with some of the text editors for programmers, it’s most likely you’ll be disappointed with how ```Vim``` looks. But this is actually a good thing. While other editors try to force you use their features, ```Vim``` does the opposite.
 
@@ -33,12 +33,11 @@ Ubuntu-vim/Personal
  * spelling custumized.
  * column 80 higlighted
 
-# Vim Color Scheme
+## Vim Color Scheme
 
  Vim allows its users to change the colors it uses. So yes, Vim supports color schemes. You can create your own, or download some you like, and install them in Vim.
 
  [Here](http://vimcolors.com/) is a useful website. Vim Colors can automatically generate previews of Vim colorschemes from GitHub repos.
 
 # References
-
  * [Mastering Vim Quickly: From WTF to OMG in no time](https://www.amazon.com/Mastering-Vim-Quickly-WTF-time/dp/1983325740) by Joviac Ilic.
