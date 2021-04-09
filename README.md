@@ -10,7 +10,7 @@ Ubuntu-vim/Personal
 
 # Intro
 
- ![vim_image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9f%2FVimlogo.svg%2F1920px-Vimlogo.svg.png&f=1&nofb=1)
+ ![vim_image](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9f%2FVimlogo.svg%2F1920px-Vimlogo.svg.png&f=1&nofb=1 = 100x20)
 
  ```Vim``` is different from other text editors. Although it looks hard to learn, there are only two main
 ideas you need to really understand it. Those two are actually what makes Vim so different
