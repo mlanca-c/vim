@@ -126,6 +126,8 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 " [zw] ignore
 
 " ==============================================================================
-
-" set undodir=~/.vim/undodir
-" set undofile
+" ==persistent Undu=============================================================
+"
+set undofile					" Maintain undo history between sessions.
+set undodir=~/.vim/undodir		" Directory where vim will store all the undo 
+								" history.
