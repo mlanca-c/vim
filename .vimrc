@@ -57,7 +57,7 @@ set number			" Set line number file.
 set noerrorbells	" Disable beep on errors.
 set visualbell		" Flash the screen instead of beeping on errors.
 
-set mouse=a			" Enable mouse for scrolling and resizing.
+" set mouse=a			" Enable mouse for scrolling and resizing.
 
 set title			" Set the window's title, reflecting the file currently 
 					" being edited.
