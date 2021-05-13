@@ -130,4 +130,19 @@ map <F5> :setlocal spell! spelllang=en_us<CR>
 "
 set undofile					" Maintain undo history between sessions.
 set undodir=~/.vim/undodir		" Directory where vim will store all the undo 
-								" history.
+
+" ==============================================================================
+" ==42 Header===================================================================
+"
+map <F1> :Stdheader<CR>
+
+" ==============================================================================
+" ==Split Window Shortcut=======================================================
+"
+map <F3> :vsplit<CR>
+" This splits vertically vim in two windows.
+
+map <F4> :split<CR>
+" This splits vim in two windows.
+
+" ==============================================================================
