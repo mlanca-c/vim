@@ -6,7 +6,7 @@
 #    By: mlanca-c <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/05/14 13:58:23 by mlanca-c          #+#    #+#              #
-#    Updated: 2021/06/08 15:29:33 by mlanca-c         ###   ########.fr        #
+#    Updated: 2021/06/08 15:31:00 by mlanca-c         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,4 +21,5 @@ git add .
 git status
 git commit -m "Auto-update vimrc - update"
 git push
+source ~/.vimrc
 sleep 2
