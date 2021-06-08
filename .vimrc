@@ -67,8 +67,8 @@ set cc=80			" Highlight column 80.
 " ==============================================================================
 " ==Relative Numbers only in Insert mode========================================
 "
-autocmd InsertEnter * :set					" vim automatically switches to
-autocmd InsertLeave * :set relativenumber	" absolute line numbers when in
+autocmd InsertEnter * :set	relativenumber	" vim automatically switches to
+autocmd InsertLeave * :set 					" absolute line numbers when in
 											" insert mode and back to relative
 											" in normal mode.
 
