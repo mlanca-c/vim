@@ -119,8 +119,6 @@ set sidescrolloff=5 	" The number of screen columns to keep to the left and
 " syntax enable 		" Enable syntax highlighting (if you want to know what
 						" this means, just type :syntax off/on).
 
-syntax on				" default syntax of vim.
-
 map <F5> :setlocal spell! spelllang=en_us<CR>	
 " Toggle spell check.
 " Once the cursor is on the word use [z=]
