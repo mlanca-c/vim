@@ -64,6 +64,13 @@ set title			" Set the window's title, reflecting the file currently
 
 set cc=80			" Highlight column 80.
 
+" ==============================================================================
+" ==Relative Numbers only in Insert mode========================================
+"
+autocmd InsertEnter * :set					" vim automatically switches to
+autocmd InsertLeave * :set relativenumber	" absolute line numbers when in
+											" insert mode and back to relative
+											" in normal mode.
 
 " ==============================================================================
 " ==Swap and Backup file options - disable all of them==========================
