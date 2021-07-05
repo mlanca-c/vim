@@ -21,7 +21,7 @@ set showcmd 						" Show incomplete commands at the bottom.
 set showmode 						" Show current mode at the bottom.
 
 " ==============================================================================
-colorscheme molokai	" Set up a color scheme.
+colorscheme monokai	" Set up a color scheme.
 			" My chosen color scheme is molokai 
 			" (https://github.com/tomasr/molokai). After setting it 
 			" up in my .vim/colors folder. It is ready for use (In 
@@ -121,7 +121,7 @@ set scrolloff=3 		" The number of screen lines to keep above and below the
 set sidescrolloff=5 	" The number of screen columns to keep to the left and 
 						" right of the cursor.
 
-" syntax enable 		" Enable syntax highlighting (if you want to know what
+syntax enable 		" Enable syntax highlighting (if you want to know what
 						" this means, just type :syntax off/on).
 
 map <F5> :setlocal spell! spelllang=en_us<CR>	
